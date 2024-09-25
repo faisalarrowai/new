@@ -1,0 +1,53 @@
+{
+  "activeAgent": false,
+  "currentLayout": {
+    "grid": {
+      "root": {
+        "type": "branch",
+        "data": [
+          {
+            "type": "leaf",
+            "data": {
+              "views": [
+                "Code"
+              ],
+              "activeView": "Code",
+              "id": "1"
+            },
+            "size": 640
+          },
+          {
+            "type": "leaf",
+            "data": {
+              "views": [
+                "Chat"
+              ],
+              "activeView": "Chat",
+              "id": "2"
+            },
+            "size": 640
+          }
+        ],
+        "size": 570
+      },
+      "width": 1280,
+      "height": 570,
+      "orientation": "HORIZONTAL"
+    },
+    "panels": {
+      "Code": {
+        "id": "Code",
+        "contentComponent": "Code",
+        "title": "Code",
+        "renderer": "always"
+      },
+      "Chat": {
+        "id": "Chat",
+        "contentComponent": "Chat",
+        "title": "Chat",
+        "renderer": "always"
+      }
+    },
+    "activeGroup": "2"
+  }
+}
